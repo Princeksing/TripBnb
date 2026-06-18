@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react'
 export const authDataContext = createContext()
 
 function AuthContext({ children }) {
-  const serverUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+  const serverUrl = import.meta.env.VITE_API_URL || 'https://tripbnb-backend.onrender.com'
   const [loading, setLoading] = useState(false)
 
   const value = { serverUrl, loading, setLoading }
