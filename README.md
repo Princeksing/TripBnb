@@ -67,7 +67,7 @@ ADMIN_EMAIL=admin@tripbnb.com
 Copy `frontend/.env.example` to `frontend/.env`:
 
 ```env
-VITE_API_URL=http://localhost:8000
+VITE_API_URL=https://tripbnb-backend.onrender.com
 ```
 
 ### 4. Run locally
